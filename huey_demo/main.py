@@ -1,7 +1,7 @@
 # coding=utf-8
 
 from config import huey
-from tasks import count_beans
+from tasks import count_beans, try_thrice, add  # noqa
 
 
 if __name__ == '__main__':
